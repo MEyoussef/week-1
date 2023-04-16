@@ -30,4 +30,12 @@ function showMyDetails(a = "", b = "", c) {
 }
 // Replace ???? With The Available Variables As Argument To Get The Result
 console.log(showMyDetails(nothing, nothing, theName)); // Elzero
+// 7
+function showMsg(user, age, country) {
+    return `${user}${age}${country}`;
+}
+console.log(showMsg());
+console.log(showMsg("Elzero"));
+console.log(showMsg("Elzero", 40));
+console.log(showMsg("Elzero", "40", "Egypt"));
 //# sourceMappingURL=script.js.map
