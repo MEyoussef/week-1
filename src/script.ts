@@ -21,9 +21,9 @@ let arr: (number | boolean[] | (string | (string | number)[])[])[] = [1, 2, [tru
 
 // 5
 function reportErrors(username: string, age: number) {
-  let rank = "Professor";
+  // let rank = "Professor";
   return `Username: ${username}`;
-  console.log("We Will Not Reach Here");
+  // console.log("We Will Not Reach Here");
 }
 
 console.log(reportErrors("Elzero", 40));

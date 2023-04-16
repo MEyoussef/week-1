@@ -15,4 +15,11 @@ console.log(printInfo("10", "20")); // Value One Is "10", Value Two Is "20"
 // console.log(printInfo(true, [1, 2, 3])); // We Don't Need This To Work
 // 4
 let arr = [1, 2, [true, false], ["Youssef", ["yehya", 3, 4]]];
+// 5
+function reportErrors(username, age) {
+    // let rank = "Professor";
+    return `Username: ${username}`;
+    // console.log("We Will Not Reach Here");
+}
+console.log(reportErrors("Elzero", 40));
 //# sourceMappingURL=script.js.map
